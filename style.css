@@ -156,4 +156,18 @@ html {
 
 .social-media i {
   font-size: 2.2rem;
+  margin: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #777;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.social-media i:hover {
+  background-color: #c29525;
 }
